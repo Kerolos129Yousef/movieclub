@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <aside>
+        <ul>
+            <li>Now playing</li>
+            <li>Popular</li>
+            <li>Top Rated</li>
+            <li>Upcoming</li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+        </div>
+        <p id="copy">Copyright Â© 2019 All Rights Reserved.</p>
+        <div class="area">
+            <img id="logo" src="logo.png">
+            <a href="#" class="sidebar-toggle"><i class="fa-solid fa-bars"></i></a>
+            <div id="area-icon">
+                <i class="fa-solid fa-globe"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </aside>
+    <div class="container">
+
+        <div id="search" class=" row  text-center mb-5  ">
+            <div class="col-md-6">
+                <input id="searchByWord" type="text" placeholder="get movies by word...">
+            </div>
+            <div class="col-md-6">
+                <input id="searchByRate" type="text" placeholder="search by minmum rate...">
+            </div>
+        </div>
+        <div id="movie-cards" class="movie-cards row ">
+
+
+        </div>
+        <section id="contact" class="contact">
+            <h1>Contact Us...</h1>
+            <div class=" contact-info row">
+                <div class="col-md-6">
+                    <input id="username" type="text" placeholder="Enter Your Name">
+                    <p id="username-error" class="error">please enter a valid userName</p>
+                    <input id="userPhone" type="number" placeholder="Enter phone">
+                    <p id="userPhone-error" class="error">please enter a valid phone</p>
+                    <input id="userPassword" type="password" placeholder="Enter Password">
+                    <p  id="userPassword-error"  class="error">please enter a valid password</p>
+
+                </div>
+                <div class="col-md-6">
+                    <input id="userEamil" type="email" placeholder="Enter Email">
+                    <p id="userEamil-error" class="error">please enter a valid Email</p>
+                    <input id="userAge" type="number" placeholder="Enter Age">
+                    <p id="userAge-error" class="error">please enter a valid Age</p>
+                    <input id="userRepassword" type="password" placeholder="Enter RePassword">
+                    <p id="userRepassword-error" class="error">please enter a valid RePassword</p>
+
+                </div>
+                <button class="btn  valid">submit</button>
+            </div>
+        </section>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
