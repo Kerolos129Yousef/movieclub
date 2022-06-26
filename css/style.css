@@ -111,6 +111,8 @@ aside ul li a:hover{
 .container{
     width: 80%;
     position: relative;
+      
+
 }
 .container-content{
     width: 100%;
@@ -213,9 +215,10 @@ font-weight: 300;
 .contact button{
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 7%;
-    margin-left:20px;
+    margin-left:10px;
     transition: background-color 0.5s;
+    display: block;
+    text-align: center;
     } 
 .Notvalid{
     color:rgb(146, 47, 47);
